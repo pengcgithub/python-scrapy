@@ -17,7 +17,7 @@ scrapy的依赖关系比较紧密，所以安装步骤必须有先后顺序，�
 由于Scrapy的依赖库文件中，pywin32和Twisted的底层是基于C语言开发的，因此需要安装C语言的编译环境。
 
 **2、安装pywin32**
-pywin32 必需使用exe安装包来进行安装，否则windows下很难安装，下载地址为：[Python for Windows Extensions](https://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml)
+pywin32 必需使用exe安装包来进行安装，否则windows下很难安装，下载地址为：[Python for Windows Extensions](https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/)
 
 **3、安装Twisted**
 Scrapy需要依赖Twisted。Twisted是Python下面一个非常重要的基于事件驱动的IO引擎。Twisted的安装依赖于pywin32和前面的Visual C++ Build Tools，所以必需先安装完成这两个东西以后才能安装Twisted。
